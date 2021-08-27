@@ -1,2 +1,3 @@
 # kicad-keyboard
-KiCad Library for Keyboard Parts
+
+KiCad library of symbols, footprints, and models for keyboard parts.
