@@ -1,2 +1,14 @@
 *.kicad_mod text=auto
-* text=auto
+*.lib text=auto
+*.dcm text=auto
+
+*.md text=auto
+*.txt text=auto
+
+*.STEP binary
+*.step binary
+*.STP  binary
+*.stp  binary
+
+*.wrl -diff
+*.WRL -diff
