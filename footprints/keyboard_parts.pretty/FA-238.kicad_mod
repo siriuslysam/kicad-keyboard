@@ -1,14 +1,14 @@
-(module FA-238 (layer F.Cu) (tedit 612B17A6)
+(module FA-238 (layer F.Cu) (tedit 612C5E81)
   (fp_text reference X** (at 0 2.55) (layer F.SilkS) hide
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
   (fp_text value XTAL_FA238 (at 0 -2.625) (layer F.SilkS) hide
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
-  (fp_line (start -2.375 1.875) (end -2.375 -1.875) (layer F.SilkS) (width 0.2))
-  (fp_line (start -2.375 -1.875) (end 2.375 -1.875) (layer F.SilkS) (width 0.2))
-  (fp_line (start 2.375 -1.875) (end 2.375 1.875) (layer F.SilkS) (width 0.2))
   (fp_line (start 2.375 1.875) (end -2.375 1.875) (layer F.SilkS) (width 0.2))
+  (fp_line (start 2.375 -1.875) (end 2.375 1.875) (layer F.SilkS) (width 0.2))
+  (fp_line (start -2.375 -1.875) (end 2.375 -1.875) (layer F.SilkS) (width 0.2))
+  (fp_line (start -2.375 1.875) (end -2.375 -1.875) (layer F.SilkS) (width 0.2))
   (pad 3 smd rect (at -1.1 -0.8) (size 1.4 1.2) (drill (offset -0.1 -0.05)) (layers F.Cu F.Paste F.Mask)
     (clearance 0.2))
   (pad 2 smd rect (at 1.1 -0.8) (size 1.4 1.2) (drill (offset 0.1 -0.05)) (layers F.Cu F.Paste F.Mask)
@@ -17,9 +17,9 @@
     (clearance 0.2))
   (pad 3 smd rect (at 1.1 0.8) (size 1.4 1.2) (drill (offset 0.1 0.05)) (layers F.Cu F.Paste F.Mask)
     (clearance 0.2))
-  (model ${KIPRJMOD}/libraries/models/keyboard_parts.3dshapes/FA-238_XTAL.WRL
+  (model ${KIPRJMOD}/libraries/models/keyboard_parts.3dshapes/FA-238_XTAL.STEP
     (at (xyz 0 0 0))
-    (scale (xyz 10 10 10))
+    (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
 )
